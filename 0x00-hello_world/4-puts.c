@@ -2,7 +2,7 @@
 /**
  * main - input 0
  *
- * Description: 'the program prints \"Programming is like building a multilingual puzzle'
+ * Description: 'the program prints \"Programming.. puzzle'
  *
  * Return: Always 0 (Solved)
  */
