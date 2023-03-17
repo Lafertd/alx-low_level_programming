@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main:  function 0
- * return: returns 0
+ * main - a program that prints a line
+ * returns: returns 0 (Program working)
+ * return: return 0 the program is working
  */
 int main(void)
 {
