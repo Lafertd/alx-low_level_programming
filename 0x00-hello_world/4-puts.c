@@ -1,9 +1,11 @@
 #include <stdio.h>
-/*
- * main - hi
+/**
+ * main - input 0
  *
- * retur: by
-*/
+ * Description: 'the program prints \"Programming is like building a multilingual puzzle'
+ *
+ * Return: Always 0 (Solved)
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
