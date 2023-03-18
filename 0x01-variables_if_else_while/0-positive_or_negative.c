@@ -3,7 +3,10 @@
 #include <stdio.h>
 
 /** main - positive, negative, and zero
+  *
   * Description: print the positivity or negativity of n
+  *
+  * Return: return 0 (Solved)
   */
 int main(void)
 {
