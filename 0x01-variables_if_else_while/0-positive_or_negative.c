@@ -3,9 +3,8 @@
 #include <stdio.h>
 
 /** main - positive, negative, and zero
- *
- * Description: print the positivity or negativity of n
- */
+  * Description: print the positivity or negativity of n
+  */
 int main(void)
 {
 	int n;
