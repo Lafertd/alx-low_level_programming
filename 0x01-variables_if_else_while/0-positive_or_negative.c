@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - positive, negative, and zero */
-/* Description: print the positivity or negativity of n */
-/* Return: return 0 (Solved) */
+/* main - positive, negative, and zero
+* Description: print the positivity or negativity of n
+* Return: return 0 (Solved)
+*/
 int main(void)
 {
 	int n;
