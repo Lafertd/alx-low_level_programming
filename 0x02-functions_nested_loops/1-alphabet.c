@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * main - print all alphabet in lowercase
- *
- * Description: lowercase on the standard outpu
- *
- * Return: return 0 (Solved)
+ * main - prints the lowercase alphabet in reverse,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 {
