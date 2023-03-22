@@ -4,8 +4,9 @@
 	/**
 	 * print_alphabet - print all alphabet in lowercase
 	 *
-	 * Description: print
+	 * Description: print all lowercases alphabet
 	 *
+	 * Return: return 0 (Solved)
 	 */
 
 
