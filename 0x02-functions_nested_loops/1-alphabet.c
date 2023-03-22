@@ -2,7 +2,7 @@
 /**
  * main - print all alphabet in lowercase
  *
- * Description: lowercase
+ * Description: lowercase on the standard outpu
  *
  * Return: return 0 (Solved)
  */
