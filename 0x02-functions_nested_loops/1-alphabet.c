@@ -1,9 +1,13 @@
 #include "main.h"
+
 /**
- * main - prints the lowercase alphabet in reverse,
- * followed by a new line
- * Return: Always 0 (Success)
+ * main - return 0
+ *
+ * Description: prints _putchar
+ *
+ * Return: return 0 (Solved)
  */
+
 void print_alphabet(void)
 {
 char lc;
