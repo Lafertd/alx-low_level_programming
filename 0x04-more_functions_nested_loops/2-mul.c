@@ -1,9 +1,9 @@
 include "main.h"
 
 /**
-* -mul - multiply 2 integers
-*@a: first integer
-*@b: second int
+* mul - multiply 2 integers
+* @a: first integer
+* @b: second int
 * Return: muliply a,b
 */
 
