@@ -1,16 +1,19 @@
-nclude "main.h"
+#include "main.h"
 
 /**
-* print_numbers - multiply 2 integers
-* Description: print numbers from 0-9
-*/
+ * print_numbers - function that prints the numbers, from 0 to 9,
+ * followed by a new line
+ *
+ * Return: void
+ */
+void print_numbers(void)
+{
+int n = 0;
 
-void print_numbers(void);
+while (n <= 9)
 {
-int i;
-for (i = '0'; i <= '9' ; i++)
-{
-_putchar(i + '0');
+_putchar(n + '0');
+n++;
 }
 _putchar('\n');
 }
