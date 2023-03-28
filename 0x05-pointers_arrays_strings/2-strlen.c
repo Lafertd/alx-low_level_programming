@@ -5,5 +5,12 @@
  */
 int _strlen(char *s)
 {
-size_t strlen(const char *s);
+	int count = 0;
+
+	while (s[count] != 0)
+	{
+		count++;
+	}
+	return (count);
+
 }
