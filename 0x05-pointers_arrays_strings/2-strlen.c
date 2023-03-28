@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  *_strlen - function that returns the length of a string
- * retunr: size
+ * @s: string to measure²
+ * return: size
  */
 int _strlen(char *s)
 {
