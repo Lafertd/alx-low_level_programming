@@ -1,10 +1,19 @@
 #include "main.h"
+
 /**
- * _puts - prints a string, followed by a new line, to stdout
+ * _puts -  function that prints a string, followed by a new line, to stdout
+ * @str: string to be printed
  *
- * Return: char 
+ * Return: void(Solved)
  */
 void _puts(char *str)
 {
-_puts("I do not fear computers. I fear the lack of them - Isaac Asimov");
+	int d = 0;
+
+	while (str[d] != 0)
+	{
+		_putchar(str[d]);
+		d++;
+	}
+	_putchar('\n');
 }
