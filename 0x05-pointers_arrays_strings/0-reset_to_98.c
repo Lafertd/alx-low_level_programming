@@ -1,16 +1,13 @@
 #include "main.h"
 /**
- * main - check the code 
+ * main - updates the value of n to 98 
  *
- * Return: Always 0.
+ * Return: Always 98
  */
 void reset_to_98(int *n)
 {
-    int n;
-
-    n = 402;
-    _putchar("n=%d\n", n);
-    reset_to_98(&n);
-    _putchar("n=%d\n", n);
-    return (0);
+int n;
+int *n = &n;
+int *n = 98;
+return (98);
 }
