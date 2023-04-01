@@ -13,8 +13,7 @@ char *_strcat(char *dest, char *src)
 
   /* Find the end of dest */
   for (int i = 0; dest[i] != '\0'; i++)
-  {
-    p = &dest[i];
+  {  p = &dest[i];
   }
 
   /* Copy src to the end of dest */
@@ -28,5 +27,5 @@ char *_strcat(char *dest, char *src)
   *p = '\0';
 
   /* Return a pointer to the resulting string dest */
-  return dest;
+  return (dest);
 }
