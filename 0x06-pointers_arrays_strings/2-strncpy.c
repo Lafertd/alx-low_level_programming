@@ -1,7 +1,7 @@
 #inlcude "main.h"
 
 /**
- * _strncat - function that copies a string
+ * _strncpy - function that copies a string
  * @dest: destination string to copy to
  * @src: source string to copy from
  * @n: bytes from src to be appened
