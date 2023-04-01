@@ -1,4 +1,3 @@
-
 #inlcude "main.h"
 /**
  * _strncat - function that copies a string
@@ -9,8 +8,8 @@
  * Return: pointer to string dest (Solved)
  */
 
-char *_strncpy(char *dest, const char *src, size_t n)
-           {
+char *_strncpy(char *dest, char *src, int n)
+{
                size_t i;
 
                for (i = 0; i < n && src[i] != '\0'; i++)
