@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * compare_strings - function that compares two strings
- * @str1: string 1
- * @str2: string 2
+ * _strcmp - function that compares two strings
+ * @s1: string 1
+ * @s2: string 2
  *
- * Return: comparison
+ * Return: comparisson
  */
-int compare_strings(char *str1, char *str2)
+int _strcmp(char *s1, char *s2)
 {
-    int i = 0;
+	int pos = 0;
 
-    while (str1[i] != 0 && str2[i] != 0 && str1[i] == str2[i])
-    {
-        i++;
-    }
-    return (str1[i] - str2[i]);
+	while (s1[pos] != 0 && s2[pos] != 0 && s1[pos] == s2[pos])
+	{
+		pos++;
+	}
+	return (s1[pos] - s2[pos]);
 }
