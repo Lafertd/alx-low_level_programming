@@ -1,12 +1,12 @@
-#inlcude "main.h"
+#include "holberton.h"
 
 /**
  * _strncpy - function that copies a string
- * @dest: destination string to copy to
- * @src: source string to copy from
- * @n: bytes from src to be appened
+ * @dest: string destination
+ * @src: string to be copied
+ * @n: number of bytes to be copied
  *
- * Return: pointer to string dest (Solved)
+ * Return: pointer to the resulting string dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -23,5 +23,5 @@ char *_strncpy(char *dest, char *src, int n)
         i++;
     }
 
-    return dest;
+    return (dest);
 }
