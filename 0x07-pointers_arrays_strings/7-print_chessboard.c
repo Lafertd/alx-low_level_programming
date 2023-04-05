@@ -1,30 +1,23 @@
 #include "main.h"
 
 /**
- * _strpbrk - function locates the first occurrence in the string s of
- * any of the bytes in the string accept
- * @s: string
- * @accept: string
+ * print_chessboard -  function that prints the chessboard
+ * @a: array 2D
  *
- * Return: a pointer to the byte in s that matches one of the bytes in accept,
- * or NULL if no such byte is found
+ * Return: void
  */
-char *_strpbrk(char *s, char *accept)
+void print_chessboard(char (*a)[8])
 {
-	unsigned int counter_s = 0;
-	unsigned int counter_accept = 0;
+	int i;
+	int j;
 
-	while (s[counter_s] != 0)
+	for (i = 0; i < 8; i++)
 	{
-		while (accept[counter_accept] != 0)
+		for (j = 0; j < 8; j++)
 		{
-			if (s[counter_s] == accept[counter_accept])
-				return (&s[counter_s]);
-			counter_accept++;
+			_putchar(a[i][j]);
+			if (j == 7)
+				_putchar('\n');
 		}
-		counter_accept = 0;
-		counter_s++;
 	}
-
-	return (0);
 }
