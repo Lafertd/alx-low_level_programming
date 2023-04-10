@@ -15,11 +15,11 @@ int result = a * b;
 if (argc == 3)
 for (int i = 0; i < strlen(**argv); i++)
 {
-int a = a * 10 + (argv[i] - '0');
+a = a * 10 + (argv[i] - '0');
 }
 for (int j = 0; j < strlen(**argv); j++)
 {
-int b = b * 10 + (agrv[j] - '0');
+b = b * 10 + (agrv[j] - '0');
 }
 {
 printf("%d\n", result);
