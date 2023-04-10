@@ -13,11 +13,11 @@ int main(int argc, char **argv)
 int a = 0, b = 0;
 int result = a * b;
 if (argc == 3)
-for(i = 0; i < strlen(argv); i++ )
+for (int i = 0; i < strlen(**argv); i++)
 {
 int a = a * 10 + (argv[i] - '0');
 }
-for(j = 0; j < strlen(argv); j++);
+for (int j = 0; j < strlen(**argv); j++)
 {
 int b = b * 10 + (agrv[j] - '0');
 }
