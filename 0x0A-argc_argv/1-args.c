@@ -12,7 +12,8 @@
 int main(int argc, char **argv)
 {
         int i = argc;
-        char argv;
+        char name;
+	name = argv[]
        printf("%d\n", i);
        return (0);
 }
