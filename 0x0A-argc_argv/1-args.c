@@ -12,7 +12,7 @@
 int main(int argc, char **argv)
 {
         int i = argc;
-	char name = argv __attribute__((unused));
+	char name __attribute__((unused)) = **argv;
        printf("%d\n", i);
        return (0);
 }
