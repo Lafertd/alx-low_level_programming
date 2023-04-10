@@ -11,7 +11,7 @@
 
 int main(int argc, char **argv)
 {
-int (i);
+int i;
 char name __attribute__((unused)) = **argv;
 i = argc - 1;
 {
