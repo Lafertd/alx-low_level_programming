@@ -11,8 +11,8 @@
 
 int main(int argc, char **argv)
 {
-        int i = argc;
-	char name __attribute__((unused)) = **argv;
-       printf("%d\n", i);
-       return (0);
+int i = argc;
+char name __attribute__((unused)) = **argv;
+printf("%d\n", i);
+return (0);
 }
