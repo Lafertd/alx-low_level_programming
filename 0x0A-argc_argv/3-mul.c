@@ -15,6 +15,7 @@ if (argc != 3)
 printf("Error\n");
 return (1);
 }
+int a, b;
 int a = atoi(argv[1]);
 int b = atoi(argv[2]);
 int result = a * b;
