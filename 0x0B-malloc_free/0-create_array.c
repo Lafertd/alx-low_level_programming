@@ -1,29 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
- * create_array -  function that creates an array of chars, and initializes it
- * with a specific char
- * @size: size of the array of chars
- * @c: char to be repeated
- *
- * Return: NULL if size = 0,  a pointer to the array, or NULL if it fails.
+ * *malloc_checked - allocate memory with malloc
+ * @b: unsigned int type
+ * Return: return pointer
  */
-char *create_array(unsigned int size, char c)
+void *malloc_checked(unsigned int b)
 {
-	char *array;
-	unsigned int counter;
+	int *ptr;
 
-	if (size == 0)
-		return (NULL);
-
-	array = malloc(sizeof(char) * size);
-
-	if (array == NULL)
-		return (NULL);
-
-	for (counter = 0; counter < size; counter++)
-		array[counter] = c;
-
-	return (array);
+	ptr = malloc(b);
+	if (ptr == NULL)
+		exit(98);
+	return (ptr);
 }
