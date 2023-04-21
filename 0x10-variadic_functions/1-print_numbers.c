@@ -12,17 +12,19 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	va_list ls;
-	va_start(ls, n);
 	unsigned int i;
-	int value;
+	va_list list;
+	int num;
+
+	va_start(list, n);
 	for (i = 0; i < n; i++)
-	{	
-		value = va_arg(ls, int);
-		printf("%d", value);
+	{
+		num = va_arg(list, int);
+		printf("%d", num);
+
 		if (i < n - 1 && separator != NULL)
-		prinft("%s", *separator);
+			printf("%s", separator);
 	}
-	_putchar('\n');
-	va_end(ls);
+	printf("\n");
+	va_end(list);
 }
